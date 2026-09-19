@@ -1,0 +1,36 @@
+out
+dist
+node_modules
+.vscode-test/
+*.vsix
+main.cpp
+typedoc.json
+отчет.md
+# Зависимости
+node_modules/
+
+# Результат компиляции TypeScript
+out/
+dist/
+
+# Собранные пакеты расширения
+*.vsix
+
+# Временные папки окружения тестирования VS Code
+.vscode-test/
+.vscode-test.mjs
+
+# Логи и кэш
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Локальные настройки редактора (оставляем только launch.json и tasks.json если нужно делиться ими)
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+
+
